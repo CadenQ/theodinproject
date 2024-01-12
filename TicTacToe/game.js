@@ -1,6 +1,6 @@
 class Game {
     constructor() {
-        this.gameboard = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+        this.gameboard = [[null, null, null], [null, null, null], [null, null, null]];
     }
     
     markSquare(player, square) {
