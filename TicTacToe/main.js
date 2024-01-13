@@ -6,9 +6,6 @@
  * @param optionClicked - Handles the player clicking an option
  * @param reset - Resets the game
  */
-function someFunc(player, number) {
-    return { player, number };
-}
 class GameController {
     /**
      * Constructs with two variables, currentGame and currentPlayer
