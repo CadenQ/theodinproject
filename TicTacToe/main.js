@@ -6,6 +6,9 @@
  * @param optionClicked - Handles the player clicking an option
  * @param reset - Resets the game
  */
+function someFunc(player, number) {
+    return { player, number };
+}
 class GameController {
     /**
      * Constructs with two variables, currentGame and currentPlayer
@@ -38,6 +41,7 @@ class GameController {
         for (var box of document.getElementById("game").children)
             box.innerHTML = "";
         document.getElementById("winner").innerHTML = "";
+        this.currentPlayer = "X";
     }
     
 }
